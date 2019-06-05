@@ -1,6 +1,6 @@
 <?php 
 if ($_POST["email"]<>'') { 
-    $ToEmail = 'kaleraj.rk@gmail.com'; 
+    $ToEmail = 'mysocialcareofficial@gmail.com'; 
     $EmailSubject = 'Site contact form'; 
     $mailheader = "From: ".$_POST["email"]."\r\n"; 
     $mailheader .= "Reply-To: ".$_POST["email"]."\r\n"; 
